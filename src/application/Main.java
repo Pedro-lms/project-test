@@ -13,7 +13,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 		try {
 			FXMLLoader loader = new FXMLLoader(getClass().getResource("/gui/MainView.fxml"));
-			ScrollPane scrollPane = loader.load();
+			ScrollPane scrollPane = loader.load(); //Para fazer o menu
 			
 			scrollPane.setFitToHeight(true);
 			scrollPane.setFitToWidth(true);
