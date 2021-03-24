@@ -34,7 +34,7 @@ public class MainViewController implements Initializable {
 	
 	@FXML
 	public void onMenuItemDepartmentAction() {
-		loadView("/gui/DeparmentList.fxml");//Pra carregar a tela e gerar um novo padrão
+		loadView("/gui/DepartmentList.fxml");//Pra carregar a tela e gerar um novo padrão
 	}
 	
 	@FXML
